@@ -33,8 +33,6 @@ const AppProvider = ({ children }) => {
     
   });
   
-  console.log(table[questions.category])
-  
   const fetchUrl = async (url) => {
     setLoading(true);
     setWaiting(false);
